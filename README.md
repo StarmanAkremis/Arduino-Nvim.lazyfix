@@ -34,9 +34,9 @@ git clone https://github.com/yuukiflow/Arduino-Nvim.git ~/.config/nvim/lua/Ardui
 2. Add the following to your `init.lua`:
 ```lua
 {
-  "StarmanAkremis/Arduino-Nvim.lazyfix",
+  "StarmanAkremis/Arduino-Nvim-lazyfix",
   config = function()
-    require("Arduino-Nvim.lazyfix").setup()
+    require("Arduino-Nvim-lazyfix").setup()
   end,
   dependencies =
   {

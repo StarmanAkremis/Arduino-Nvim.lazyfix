@@ -86,7 +86,7 @@ local function setupall()
 	vim.api.nvim_create_autocmd("FileType", {
 		pattern = "arduino",
 		callback = function()
-			require("Arduino-Nvim.initold")
+			require("Arduino-Nvim-lazyfix.initold")
 		end
 	})
 end
